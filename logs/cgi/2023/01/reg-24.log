@@ -1,0 +1,4 @@
+[2023-01-24 10:16:06]--[src_cgi/reg_cgi.c:235]--buf = {"email":"","firstPwd":"21232f297a57a5a743894a0e4a801fc3","nickName":"admin","phone":"","userName":"admin"}
+[2023-01-24 10:16:06]--[src_cgi/reg_cgi.c:127]--mysql_user = root, mysql_pwd = 123456, mysql_db = tuchuang
+[2023-01-24 10:16:06]--[src_cgi/reg_cgi.c:140]--user_name = admin, nick_name = admin, pwd = 21232f297a57a5a743894a0e4a801fc3, tel = , email = 
+[2023-01-24 10:16:06]--[src_cgi/reg_cgi.c:141]--root 123456 tuchuang

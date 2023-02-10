@@ -1,0 +1,706 @@
+[2023-01-24 09:47:20]--[src_cgi/sharefiles_cgi.c:41]--mysql:[user=root,pwd=123456,database=tuchuang][2023-01-24 09:47:20]--[src_cgi/sharefiles_cgi.c:46]--redis:[ip=127.0.0.1,port=6379]
+[2023-01-24 10:15:09]--[src_cgi/sharefiles_cgi.c:633]--cmd = pvdesc
+[2023-01-24 10:15:09]--[src_cgi/sharefiles_cgi.c:671]--buf = {"count":10,"start":0}
+[2023-01-24 10:15:09]--[src_cgi/sharefiles_cgi.c:680]--start = 0, count = 10
+[2023-01-24 10:15:09]--[src_cgi/sharefiles_cgi.c:85]--line = 3
+[2023-01-24 10:15:09]--[src_cgi/sharefiles_cgi.c:445]--sql_num = 3, redis_num = 3
+[2023-01-24 10:15:09]--[src_cgi/sharefiles_cgi.c:580]--{
+	"files":	[{
+			"filename":	"frame002.jpg",
+			"pv":	0
+		}, {
+			"filename":	"640x360out.jpg",
+			"pv":	0
+		}, {
+			"filename":	"in.png",
+			"pv":	0
+		}],
+	"code":	0,
+	"total":	3,
+	"count":	3
+}
+[2023-01-24 10:15:12]--[src_cgi/sharefiles_cgi.c:633]--cmd = count
+[2023-01-24 10:15:12]--[src_cgi/sharefiles_cgi.c:85]--line = 3
+[2023-01-24 10:15:12]--[src_cgi/sharefiles_cgi.c:98]--line = 3
+[2023-01-24 10:15:12]--[src_cgi/sharefiles_cgi.c:633]--cmd = normal
+[2023-01-24 10:15:12]--[src_cgi/sharefiles_cgi.c:671]--buf = {"count":10,"start":0}
+[2023-01-24 10:15:12]--[src_cgi/sharefiles_cgi.c:680]--start = 0, count = 10
+[2023-01-24 10:15:12]--[src_cgi/sharefiles_cgi.c:85]--line = 3
+[2023-01-24 10:15:12]--[src_cgi/sharefiles_cgi.c:207]--select share_file_list.*, file_info.url, file_info.size, file_info.type from file_info, share_file_list where file_info.md5 = share_file_list.md5 limit 0, 10 在操作
+[2023-01-24 10:15:12]--[src_cgi/sharefiles_cgi.c:227]--mysql_num_rows(res_set) = 3
+[2023-01-24 10:15:12]--[src_cgi/sharefiles_cgi.c:346]--{
+	"files":	[{
+			"user":	"root",
+			"md5":	"28ab9728b1249eaa13db784ce801bc8c",
+			"file_name":	"in.png",
+			"share_status":	1,
+			"pv":	0,
+			"create_time":	"2023-01-22 16:14:37",
+			"url":	"http://192.168.10.145:80/group1/M00/00/00/wKgKkWPMnTuAc19IAAc-hDXc1DU207.png",
+			"size":	474756,
+			"type":	"png"
+		}, {
+			"user":	"root",
+			"md5":	"8d512134d8b0eb8578a9eb6c3012c8a8",
+			"file_name":	"frame002.jpg",
+			"share_status":	1,
+			"pv":	0,
+			"create_time":	"2023-01-22 16:14:39",
+			"url":	"http://192.168.10.145:80/group1/M00/00/00/wKgKkWPMnWeAQAo-AADQMSgFyHE196.jpg",
+			"size":	53297,
+			"type":	"jpg"
+		}, {
+			"user":	"root",
+			"md5":	"5fe3da6f05c3249209f5ba7413e7953d",
+			"file_name":	"640x360out.jpg",
+			"share_status":	1,
+			"pv":	0,
+			"create_time":	"2023-01-22 16:14:40",
+			"url":	"http://192.168.10.145:80/group1/M00/00/00/wKgKkWPM776AdI8JAAAt5scgVFw777.jpg",
+			"size":	11750,
+			"type":	"jpg"
+		}],
+	"code":	0,
+	"total":	3,
+	"count":	3
+}
+[2023-01-24 10:15:39]--[src_cgi/sharefiles_cgi.c:633]--cmd = normal
+[2023-01-24 10:15:39]--[src_cgi/sharefiles_cgi.c:671]--buf = {"count":10,"start":0}
+[2023-01-24 10:15:39]--[src_cgi/sharefiles_cgi.c:680]--start = 0, count = 10
+[2023-01-24 10:15:39]--[src_cgi/sharefiles_cgi.c:85]--line = 3
+[2023-01-24 10:15:39]--[src_cgi/sharefiles_cgi.c:207]--select share_file_list.*, file_info.url, file_info.size, file_info.type from file_info, share_file_list where file_info.md5 = share_file_list.md5 limit 0, 10 在操作
+[2023-01-24 10:15:39]--[src_cgi/sharefiles_cgi.c:227]--mysql_num_rows(res_set) = 3
+[2023-01-24 10:15:39]--[src_cgi/sharefiles_cgi.c:346]--{
+	"files":	[{
+			"user":	"root",
+			"md5":	"28ab9728b1249eaa13db784ce801bc8c",
+			"file_name":	"in.png",
+			"share_status":	1,
+			"pv":	0,
+			"create_time":	"2023-01-22 16:14:37",
+			"url":	"http://192.168.10.145:80/group1/M00/00/00/wKgKkWPMnTuAc19IAAc-hDXc1DU207.png",
+			"size":	474756,
+			"type":	"png"
+		}, {
+			"user":	"root",
+			"md5":	"8d512134d8b0eb8578a9eb6c3012c8a8",
+			"file_name":	"frame002.jpg",
+			"share_status":	1,
+			"pv":	0,
+			"create_time":	"2023-01-22 16:14:39",
+			"url":	"http://192.168.10.145:80/group1/M00/00/00/wKgKkWPMnWeAQAo-AADQMSgFyHE196.jpg",
+			"size":	53297,
+			"type":	"jpg"
+		}, {
+			"user":	"root",
+			"md5":	"5fe3da6f05c3249209f5ba7413e7953d",
+			"file_name":	"640x360out.jpg",
+			"share_status":	1,
+			"pv":	0,
+			"create_time":	"2023-01-22 16:14:40",
+			"url":	"http://192.168.10.145:80/group1/M00/00/00/wKgKkWPM776AdI8JAAAt5scgVFw777.jpg",
+			"size":	11750,
+			"type":	"jpg"
+		}],
+	"code":	0,
+	"total":	3,
+	"count":	3
+}
+[2023-01-24 10:15:39]--[src_cgi/sharefiles_cgi.c:633]--cmd = count
+[2023-01-24 10:15:39]--[src_cgi/sharefiles_cgi.c:85]--line = 3
+[2023-01-24 10:15:39]--[src_cgi/sharefiles_cgi.c:98]--line = 3
+[2023-01-24 10:15:42]--[src_cgi/sharefiles_cgi.c:633]--cmd = normal
+[2023-01-24 10:15:42]--[src_cgi/sharefiles_cgi.c:671]--buf = {"count":10,"start":0}
+[2023-01-24 10:15:42]--[src_cgi/sharefiles_cgi.c:680]--start = 0, count = 10
+[2023-01-24 10:15:42]--[src_cgi/sharefiles_cgi.c:85]--line = 3
+[2023-01-24 10:15:42]--[src_cgi/sharefiles_cgi.c:207]--select share_file_list.*, file_info.url, file_info.size, file_info.type from file_info, share_file_list where file_info.md5 = share_file_list.md5 limit 0, 10 在操作
+[2023-01-24 10:15:42]--[src_cgi/sharefiles_cgi.c:227]--mysql_num_rows(res_set) = 3
+[2023-01-24 10:15:42]--[src_cgi/sharefiles_cgi.c:346]--{
+	"files":	[{
+			"user":	"root",
+			"md5":	"28ab9728b1249eaa13db784ce801bc8c",
+			"file_name":	"in.png",
+			"share_status":	1,
+			"pv":	0,
+			"create_time":	"2023-01-22 16:14:37",
+			"url":	"http://192.168.10.145:80/group1/M00/00/00/wKgKkWPMnTuAc19IAAc-hDXc1DU207.png",
+			"size":	474756,
+			"type":	"png"
+		}, {
+			"user":	"root",
+			"md5":	"8d512134d8b0eb8578a9eb6c3012c8a8",
+			"file_name":	"frame002.jpg",
+			"share_status":	1,
+			"pv":	0,
+			"create_time":	"2023-01-22 16:14:39",
+			"url":	"http://192.168.10.145:80/group1/M00/00/00/wKgKkWPMnWeAQAo-AADQMSgFyHE196.jpg",
+			"size":	53297,
+			"type":	"jpg"
+		}, {
+			"user":	"root",
+			"md5":	"5fe3da6f05c3249209f5ba7413e7953d",
+			"file_name":	"640x360out.jpg",
+			"share_status":	1,
+			"pv":	0,
+			"create_time":	"2023-01-22 16:14:40",
+			"url":	"http://192.168.10.145:80/group1/M00/00/00/wKgKkWPM776AdI8JAAAt5scgVFw777.jpg",
+			"size":	11750,
+			"type":	"jpg"
+		}],
+	"code":	0,
+	"total":	3,
+	"count":	3
+}
+[2023-01-24 10:15:42]--[src_cgi/sharefiles_cgi.c:633]--cmd = count
+[2023-01-24 10:15:42]--[src_cgi/sharefiles_cgi.c:85]--line = 3
+[2023-01-24 10:15:42]--[src_cgi/sharefiles_cgi.c:98]--line = 3
+[2023-01-24 10:16:16]--[src_cgi/sharefiles_cgi.c:633]--cmd = count
+[2023-01-24 10:16:16]--[src_cgi/sharefiles_cgi.c:85]--line = 3
+[2023-01-24 10:16:16]--[src_cgi/sharefiles_cgi.c:98]--line = 3
+[2023-01-24 10:16:16]--[src_cgi/sharefiles_cgi.c:633]--cmd = normal
+[2023-01-24 10:16:16]--[src_cgi/sharefiles_cgi.c:671]--buf = {"count":10,"start":0}
+[2023-01-24 10:16:16]--[src_cgi/sharefiles_cgi.c:680]--start = 0, count = 10
+[2023-01-24 10:16:16]--[src_cgi/sharefiles_cgi.c:85]--line = 3
+[2023-01-24 10:16:16]--[src_cgi/sharefiles_cgi.c:207]--select share_file_list.*, file_info.url, file_info.size, file_info.type from file_info, share_file_list where file_info.md5 = share_file_list.md5 limit 0, 10 在操作
+[2023-01-24 10:16:16]--[src_cgi/sharefiles_cgi.c:227]--mysql_num_rows(res_set) = 3
+[2023-01-24 10:16:16]--[src_cgi/sharefiles_cgi.c:346]--{
+	"files":	[{
+			"user":	"root",
+			"md5":	"28ab9728b1249eaa13db784ce801bc8c",
+			"file_name":	"in.png",
+			"share_status":	1,
+			"pv":	0,
+			"create_time":	"2023-01-22 16:14:37",
+			"url":	"http://192.168.10.145:80/group1/M00/00/00/wKgKkWPMnTuAc19IAAc-hDXc1DU207.png",
+			"size":	474756,
+			"type":	"png"
+		}, {
+			"user":	"root",
+			"md5":	"8d512134d8b0eb8578a9eb6c3012c8a8",
+			"file_name":	"frame002.jpg",
+			"share_status":	1,
+			"pv":	0,
+			"create_time":	"2023-01-22 16:14:39",
+			"url":	"http://192.168.10.145:80/group1/M00/00/00/wKgKkWPMnWeAQAo-AADQMSgFyHE196.jpg",
+			"size":	53297,
+			"type":	"jpg"
+		}, {
+			"user":	"root",
+			"md5":	"5fe3da6f05c3249209f5ba7413e7953d",
+			"file_name":	"640x360out.jpg",
+			"share_status":	1,
+			"pv":	0,
+			"create_time":	"2023-01-22 16:14:40",
+			"url":	"http://192.168.10.145:80/group1/M00/00/00/wKgKkWPM776AdI8JAAAt5scgVFw777.jpg",
+			"size":	11750,
+			"type":	"jpg"
+		}],
+	"code":	0,
+	"total":	3,
+	"count":	3
+}
+[2023-01-24 10:16:25]--[src_cgi/sharefiles_cgi.c:633]--cmd = normal
+[2023-01-24 10:16:25]--[src_cgi/sharefiles_cgi.c:671]--buf = {"count":10,"start":0}
+[2023-01-24 10:16:25]--[src_cgi/sharefiles_cgi.c:680]--start = 0, count = 10
+[2023-01-24 10:16:25]--[src_cgi/sharefiles_cgi.c:85]--line = 3
+[2023-01-24 10:16:25]--[src_cgi/sharefiles_cgi.c:207]--select share_file_list.*, file_info.url, file_info.size, file_info.type from file_info, share_file_list where file_info.md5 = share_file_list.md5 limit 0, 10 在操作
+[2023-01-24 10:16:25]--[src_cgi/sharefiles_cgi.c:227]--mysql_num_rows(res_set) = 3
+[2023-01-24 10:16:25]--[src_cgi/sharefiles_cgi.c:346]--{
+	"files":	[{
+			"user":	"root",
+			"md5":	"28ab9728b1249eaa13db784ce801bc8c",
+			"file_name":	"in.png",
+			"share_status":	1,
+			"pv":	0,
+			"create_time":	"2023-01-22 16:14:37",
+			"url":	"http://192.168.10.145:80/group1/M00/00/00/wKgKkWPMnTuAc19IAAc-hDXc1DU207.png",
+			"size":	474756,
+			"type":	"png"
+		}, {
+			"user":	"root",
+			"md5":	"8d512134d8b0eb8578a9eb6c3012c8a8",
+			"file_name":	"frame002.jpg",
+			"share_status":	1,
+			"pv":	0,
+			"create_time":	"2023-01-22 16:14:39",
+			"url":	"http://192.168.10.145:80/group1/M00/00/00/wKgKkWPMnWeAQAo-AADQMSgFyHE196.jpg",
+			"size":	53297,
+			"type":	"jpg"
+		}, {
+			"user":	"root",
+			"md5":	"5fe3da6f05c3249209f5ba7413e7953d",
+			"file_name":	"640x360out.jpg",
+			"share_status":	1,
+			"pv":	0,
+			"create_time":	"2023-01-22 16:14:40",
+			"url":	"http://192.168.10.145:80/group1/M00/00/00/wKgKkWPM776AdI8JAAAt5scgVFw777.jpg",
+			"size":	11750,
+			"type":	"jpg"
+		}],
+	"code":	0,
+	"total":	3,
+	"count":	3
+}
+[2023-01-24 10:16:25]--[src_cgi/sharefiles_cgi.c:633]--cmd = count
+[2023-01-24 10:16:25]--[src_cgi/sharefiles_cgi.c:85]--line = 3
+[2023-01-24 10:16:25]--[src_cgi/sharefiles_cgi.c:98]--line = 3
+[2023-01-24 10:16:28]--[src_cgi/sharefiles_cgi.c:633]--cmd = count
+[2023-01-24 10:16:28]--[src_cgi/sharefiles_cgi.c:85]--line = 3
+[2023-01-24 10:16:28]--[src_cgi/sharefiles_cgi.c:98]--line = 3
+[2023-01-24 10:16:28]--[src_cgi/sharefiles_cgi.c:633]--cmd = normal
+[2023-01-24 10:16:28]--[src_cgi/sharefiles_cgi.c:671]--buf = {"count":10,"start":0}
+[2023-01-24 10:16:28]--[src_cgi/sharefiles_cgi.c:680]--start = 0, count = 10
+[2023-01-24 10:16:28]--[src_cgi/sharefiles_cgi.c:85]--line = 3
+[2023-01-24 10:16:28]--[src_cgi/sharefiles_cgi.c:207]--select share_file_list.*, file_info.url, file_info.size, file_info.type from file_info, share_file_list where file_info.md5 = share_file_list.md5 limit 0, 10 在操作
+[2023-01-24 10:16:28]--[src_cgi/sharefiles_cgi.c:227]--mysql_num_rows(res_set) = 3
+[2023-01-24 10:16:28]--[src_cgi/sharefiles_cgi.c:346]--{
+	"files":	[{
+			"user":	"root",
+			"md5":	"28ab9728b1249eaa13db784ce801bc8c",
+			"file_name":	"in.png",
+			"share_status":	1,
+			"pv":	0,
+			"create_time":	"2023-01-22 16:14:37",
+			"url":	"http://192.168.10.145:80/group1/M00/00/00/wKgKkWPMnTuAc19IAAc-hDXc1DU207.png",
+			"size":	474756,
+			"type":	"png"
+		}, {
+			"user":	"root",
+			"md5":	"8d512134d8b0eb8578a9eb6c3012c8a8",
+			"file_name":	"frame002.jpg",
+			"share_status":	1,
+			"pv":	0,
+			"create_time":	"2023-01-22 16:14:39",
+			"url":	"http://192.168.10.145:80/group1/M00/00/00/wKgKkWPMnWeAQAo-AADQMSgFyHE196.jpg",
+			"size":	53297,
+			"type":	"jpg"
+		}, {
+			"user":	"root",
+			"md5":	"5fe3da6f05c3249209f5ba7413e7953d",
+			"file_name":	"640x360out.jpg",
+			"share_status":	1,
+			"pv":	0,
+			"create_time":	"2023-01-22 16:14:40",
+			"url":	"http://192.168.10.145:80/group1/M00/00/00/wKgKkWPM776AdI8JAAAt5scgVFw777.jpg",
+			"size":	11750,
+			"type":	"jpg"
+		}],
+	"code":	0,
+	"total":	3,
+	"count":	3
+}
+[2023-01-24 10:18:21]--[src_cgi/sharefiles_cgi.c:633]--cmd = pvdesc
+[2023-01-24 10:18:21]--[src_cgi/sharefiles_cgi.c:671]--buf = {"count":10,"start":0}
+[2023-01-24 10:18:21]--[src_cgi/sharefiles_cgi.c:680]--start = 0, count = 10
+[2023-01-24 10:18:21]--[src_cgi/sharefiles_cgi.c:85]--line = 3
+[2023-01-24 10:18:21]--[src_cgi/sharefiles_cgi.c:445]--sql_num = 3, redis_num = 3
+[2023-01-24 10:18:21]--[src_cgi/sharefiles_cgi.c:580]--{
+	"files":	[{
+			"filename":	"frame002.jpg",
+			"pv":	0
+		}, {
+			"filename":	"640x360out.jpg",
+			"pv":	0
+		}, {
+			"filename":	"in.png",
+			"pv":	0
+		}],
+	"code":	0,
+	"total":	3,
+	"count":	3
+}
+[2023-01-24 10:18:25]--[src_cgi/sharefiles_cgi.c:633]--cmd = normal
+[2023-01-24 10:18:25]--[src_cgi/sharefiles_cgi.c:671]--buf = {"count":10,"start":0}
+[2023-01-24 10:18:25]--[src_cgi/sharefiles_cgi.c:680]--start = 0, count = 10
+[2023-01-24 10:18:25]--[src_cgi/sharefiles_cgi.c:85]--line = 3
+[2023-01-24 10:18:25]--[src_cgi/sharefiles_cgi.c:207]--select share_file_list.*, file_info.url, file_info.size, file_info.type from file_info, share_file_list where file_info.md5 = share_file_list.md5 limit 0, 10 在操作
+[2023-01-24 10:18:25]--[src_cgi/sharefiles_cgi.c:227]--mysql_num_rows(res_set) = 3
+[2023-01-24 10:18:25]--[src_cgi/sharefiles_cgi.c:346]--{
+	"files":	[{
+			"user":	"root",
+			"md5":	"28ab9728b1249eaa13db784ce801bc8c",
+			"file_name":	"in.png",
+			"share_status":	1,
+			"pv":	0,
+			"create_time":	"2023-01-22 16:14:37",
+			"url":	"http://192.168.10.145:80/group1/M00/00/00/wKgKkWPMnTuAc19IAAc-hDXc1DU207.png",
+			"size":	474756,
+			"type":	"png"
+		}, {
+			"user":	"root",
+			"md5":	"8d512134d8b0eb8578a9eb6c3012c8a8",
+			"file_name":	"frame002.jpg",
+			"share_status":	1,
+			"pv":	0,
+			"create_time":	"2023-01-22 16:14:39",
+			"url":	"http://192.168.10.145:80/group1/M00/00/00/wKgKkWPMnWeAQAo-AADQMSgFyHE196.jpg",
+			"size":	53297,
+			"type":	"jpg"
+		}, {
+			"user":	"root",
+			"md5":	"5fe3da6f05c3249209f5ba7413e7953d",
+			"file_name":	"640x360out.jpg",
+			"share_status":	1,
+			"pv":	0,
+			"create_time":	"2023-01-22 16:14:40",
+			"url":	"http://192.168.10.145:80/group1/M00/00/00/wKgKkWPM776AdI8JAAAt5scgVFw777.jpg",
+			"size":	11750,
+			"type":	"jpg"
+		}],
+	"code":	0,
+	"total":	3,
+	"count":	3
+}
+[2023-01-24 10:18:25]--[src_cgi/sharefiles_cgi.c:633]--cmd = count
+[2023-01-24 10:18:25]--[src_cgi/sharefiles_cgi.c:85]--line = 3
+[2023-01-24 10:18:25]--[src_cgi/sharefiles_cgi.c:98]--line = 3
+[2023-01-24 10:18:27]--[src_cgi/sharefiles_cgi.c:633]--cmd = normal
+[2023-01-24 10:18:27]--[src_cgi/sharefiles_cgi.c:671]--buf = {"count":10,"start":0}
+[2023-01-24 10:18:27]--[src_cgi/sharefiles_cgi.c:680]--start = 0, count = 10
+[2023-01-24 10:18:27]--[src_cgi/sharefiles_cgi.c:85]--line = 3
+[2023-01-24 10:18:27]--[src_cgi/sharefiles_cgi.c:207]--select share_file_list.*, file_info.url, file_info.size, file_info.type from file_info, share_file_list where file_info.md5 = share_file_list.md5 limit 0, 10 在操作
+[2023-01-24 10:18:27]--[src_cgi/sharefiles_cgi.c:227]--mysql_num_rows(res_set) = 3
+[2023-01-24 10:18:27]--[src_cgi/sharefiles_cgi.c:346]--{
+	"files":	[{
+			"user":	"root",
+			"md5":	"28ab9728b1249eaa13db784ce801bc8c",
+			"file_name":	"in.png",
+			"share_status":	1,
+			"pv":	0,
+			"create_time":	"2023-01-22 16:14:37",
+			"url":	"http://192.168.10.145:80/group1/M00/00/00/wKgKkWPMnTuAc19IAAc-hDXc1DU207.png",
+			"size":	474756,
+			"type":	"png"
+		}, {
+			"user":	"root",
+			"md5":	"8d512134d8b0eb8578a9eb6c3012c8a8",
+			"file_name":	"frame002.jpg",
+			"share_status":	1,
+			"pv":	0,
+			"create_time":	"2023-01-22 16:14:39",
+			"url":	"http://192.168.10.145:80/group1/M00/00/00/wKgKkWPMnWeAQAo-AADQMSgFyHE196.jpg",
+			"size":	53297,
+			"type":	"jpg"
+		}, {
+			"user":	"root",
+			"md5":	"5fe3da6f05c3249209f5ba7413e7953d",
+			"file_name":	"640x360out.jpg",
+			"share_status":	1,
+			"pv":	0,
+			"create_time":	"2023-01-22 16:14:40",
+			"url":	"http://192.168.10.145:80/group1/M00/00/00/wKgKkWPM776AdI8JAAAt5scgVFw777.jpg",
+			"size":	11750,
+			"type":	"jpg"
+		}],
+	"code":	0,
+	"total":	3,
+	"count":	3
+}
+[2023-01-24 10:18:27]--[src_cgi/sharefiles_cgi.c:633]--cmd = count
+[2023-01-24 10:18:27]--[src_cgi/sharefiles_cgi.c:85]--line = 3
+[2023-01-24 10:18:27]--[src_cgi/sharefiles_cgi.c:98]--line = 3
+[2023-01-24 10:18:28]--[src_cgi/sharefiles_cgi.c:633]--cmd = count
+[2023-01-24 10:18:28]--[src_cgi/sharefiles_cgi.c:85]--line = 3
+[2023-01-24 10:18:28]--[src_cgi/sharefiles_cgi.c:98]--line = 3
+[2023-01-24 10:18:28]--[src_cgi/sharefiles_cgi.c:633]--cmd = normal
+[2023-01-24 10:18:28]--[src_cgi/sharefiles_cgi.c:671]--buf = {"count":10,"start":0}
+[2023-01-24 10:18:28]--[src_cgi/sharefiles_cgi.c:680]--start = 0, count = 10
+[2023-01-24 10:18:28]--[src_cgi/sharefiles_cgi.c:85]--line = 3
+[2023-01-24 10:18:28]--[src_cgi/sharefiles_cgi.c:207]--select share_file_list.*, file_info.url, file_info.size, file_info.type from file_info, share_file_list where file_info.md5 = share_file_list.md5 limit 0, 10 在操作
+[2023-01-24 10:18:28]--[src_cgi/sharefiles_cgi.c:227]--mysql_num_rows(res_set) = 3
+[2023-01-24 10:18:28]--[src_cgi/sharefiles_cgi.c:346]--{
+	"files":	[{
+			"user":	"root",
+			"md5":	"28ab9728b1249eaa13db784ce801bc8c",
+			"file_name":	"in.png",
+			"share_status":	1,
+			"pv":	0,
+			"create_time":	"2023-01-22 16:14:37",
+			"url":	"http://192.168.10.145:80/group1/M00/00/00/wKgKkWPMnTuAc19IAAc-hDXc1DU207.png",
+			"size":	474756,
+			"type":	"png"
+		}, {
+			"user":	"root",
+			"md5":	"8d512134d8b0eb8578a9eb6c3012c8a8",
+			"file_name":	"frame002.jpg",
+			"share_status":	1,
+			"pv":	0,
+			"create_time":	"2023-01-22 16:14:39",
+			"url":	"http://192.168.10.145:80/group1/M00/00/00/wKgKkWPMnWeAQAo-AADQMSgFyHE196.jpg",
+			"size":	53297,
+			"type":	"jpg"
+		}, {
+			"user":	"root",
+			"md5":	"5fe3da6f05c3249209f5ba7413e7953d",
+			"file_name":	"640x360out.jpg",
+			"share_status":	1,
+			"pv":	0,
+			"create_time":	"2023-01-22 16:14:40",
+			"url":	"http://192.168.10.145:80/group1/M00/00/00/wKgKkWPM776AdI8JAAAt5scgVFw777.jpg",
+			"size":	11750,
+			"type":	"jpg"
+		}],
+	"code":	0,
+	"total":	3,
+	"count":	3
+}
+[2023-01-24 10:18:29]--[src_cgi/sharefiles_cgi.c:633]--cmd = normal
+[2023-01-24 10:18:29]--[src_cgi/sharefiles_cgi.c:671]--buf = {"count":10,"start":0}
+[2023-01-24 10:18:29]--[src_cgi/sharefiles_cgi.c:680]--start = 0, count = 10
+[2023-01-24 10:18:29]--[src_cgi/sharefiles_cgi.c:85]--line = 3
+[2023-01-24 10:18:29]--[src_cgi/sharefiles_cgi.c:207]--select share_file_list.*, file_info.url, file_info.size, file_info.type from file_info, share_file_list where file_info.md5 = share_file_list.md5 limit 0, 10 在操作
+[2023-01-24 10:18:29]--[src_cgi/sharefiles_cgi.c:227]--mysql_num_rows(res_set) = 3
+[2023-01-24 10:18:29]--[src_cgi/sharefiles_cgi.c:346]--{
+	"files":	[{
+			"user":	"root",
+			"md5":	"28ab9728b1249eaa13db784ce801bc8c",
+			"file_name":	"in.png",
+			"share_status":	1,
+			"pv":	0,
+			"create_time":	"2023-01-22 16:14:37",
+			"url":	"http://192.168.10.145:80/group1/M00/00/00/wKgKkWPMnTuAc19IAAc-hDXc1DU207.png",
+			"size":	474756,
+			"type":	"png"
+		}, {
+			"user":	"root",
+			"md5":	"8d512134d8b0eb8578a9eb6c3012c8a8",
+			"file_name":	"frame002.jpg",
+			"share_status":	1,
+			"pv":	0,
+			"create_time":	"2023-01-22 16:14:39",
+			"url":	"http://192.168.10.145:80/group1/M00/00/00/wKgKkWPMnWeAQAo-AADQMSgFyHE196.jpg",
+			"size":	53297,
+			"type":	"jpg"
+		}, {
+			"user":	"root",
+			"md5":	"5fe3da6f05c3249209f5ba7413e7953d",
+			"file_name":	"640x360out.jpg",
+			"share_status":	1,
+			"pv":	0,
+			"create_time":	"2023-01-22 16:14:40",
+			"url":	"http://192.168.10.145:80/group1/M00/00/00/wKgKkWPM776AdI8JAAAt5scgVFw777.jpg",
+			"size":	11750,
+			"type":	"jpg"
+		}],
+	"code":	0,
+	"total":	3,
+	"count":	3
+}
+[2023-01-24 10:18:29]--[src_cgi/sharefiles_cgi.c:633]--cmd = count
+[2023-01-24 10:18:29]--[src_cgi/sharefiles_cgi.c:85]--line = 3
+[2023-01-24 10:18:29]--[src_cgi/sharefiles_cgi.c:98]--line = 3
+[2023-01-24 10:18:38]--[src_cgi/sharefiles_cgi.c:633]--cmd = pvdesc
+[2023-01-24 10:18:38]--[src_cgi/sharefiles_cgi.c:671]--buf = {"count":10,"start":0}
+[2023-01-24 10:18:38]--[src_cgi/sharefiles_cgi.c:680]--start = 0, count = 10
+[2023-01-24 10:18:38]--[src_cgi/sharefiles_cgi.c:85]--line = 3
+[2023-01-24 10:18:38]--[src_cgi/sharefiles_cgi.c:445]--sql_num = 3, redis_num = 3
+[2023-01-24 10:18:38]--[src_cgi/sharefiles_cgi.c:580]--{
+	"files":	[{
+			"filename":	"frame002.jpg",
+			"pv":	0
+		}, {
+			"filename":	"640x360out.jpg",
+			"pv":	0
+		}, {
+			"filename":	"in.png",
+			"pv":	0
+		}],
+	"code":	0,
+	"total":	3,
+	"count":	3
+}
+[2023-01-24 10:18:48]--[src_cgi/sharefiles_cgi.c:633]--cmd = count
+[2023-01-24 10:18:48]--[src_cgi/sharefiles_cgi.c:85]--line = 3
+[2023-01-24 10:18:48]--[src_cgi/sharefiles_cgi.c:98]--line = 3
+[2023-01-24 10:18:48]--[src_cgi/sharefiles_cgi.c:633]--cmd = normal
+[2023-01-24 10:18:48]--[src_cgi/sharefiles_cgi.c:671]--buf = {"count":10,"start":0}
+[2023-01-24 10:18:48]--[src_cgi/sharefiles_cgi.c:680]--start = 0, count = 10
+[2023-01-24 10:18:48]--[src_cgi/sharefiles_cgi.c:85]--line = 3
+[2023-01-24 10:18:48]--[src_cgi/sharefiles_cgi.c:207]--select share_file_list.*, file_info.url, file_info.size, file_info.type from file_info, share_file_list where file_info.md5 = share_file_list.md5 limit 0, 10 在操作
+[2023-01-24 10:18:48]--[src_cgi/sharefiles_cgi.c:227]--mysql_num_rows(res_set) = 3
+[2023-01-24 10:18:48]--[src_cgi/sharefiles_cgi.c:346]--{
+	"files":	[{
+			"user":	"root",
+			"md5":	"28ab9728b1249eaa13db784ce801bc8c",
+			"file_name":	"in.png",
+			"share_status":	1,
+			"pv":	0,
+			"create_time":	"2023-01-22 16:14:37",
+			"url":	"http://192.168.10.145:80/group1/M00/00/00/wKgKkWPMnTuAc19IAAc-hDXc1DU207.png",
+			"size":	474756,
+			"type":	"png"
+		}, {
+			"user":	"root",
+			"md5":	"8d512134d8b0eb8578a9eb6c3012c8a8",
+			"file_name":	"frame002.jpg",
+			"share_status":	1,
+			"pv":	0,
+			"create_time":	"2023-01-22 16:14:39",
+			"url":	"http://192.168.10.145:80/group1/M00/00/00/wKgKkWPMnWeAQAo-AADQMSgFyHE196.jpg",
+			"size":	53297,
+			"type":	"jpg"
+		}, {
+			"user":	"root",
+			"md5":	"5fe3da6f05c3249209f5ba7413e7953d",
+			"file_name":	"640x360out.jpg",
+			"share_status":	1,
+			"pv":	0,
+			"create_time":	"2023-01-22 16:14:40",
+			"url":	"http://192.168.10.145:80/group1/M00/00/00/wKgKkWPM776AdI8JAAAt5scgVFw777.jpg",
+			"size":	11750,
+			"type":	"jpg"
+		}],
+	"code":	0,
+	"total":	3,
+	"count":	3
+}
+[2023-01-24 10:18:52]--[src_cgi/sharefiles_cgi.c:633]--cmd = pvdesc
+[2023-01-24 10:18:52]--[src_cgi/sharefiles_cgi.c:671]--buf = {"count":10,"start":0}
+[2023-01-24 10:18:52]--[src_cgi/sharefiles_cgi.c:680]--start = 0, count = 10
+[2023-01-24 10:18:52]--[src_cgi/sharefiles_cgi.c:85]--line = 3
+[2023-01-24 10:18:52]--[src_cgi/sharefiles_cgi.c:445]--sql_num = 3, redis_num = 3
+[2023-01-24 10:18:52]--[src_cgi/sharefiles_cgi.c:580]--{
+	"files":	[{
+			"filename":	"frame002.jpg",
+			"pv":	0
+		}, {
+			"filename":	"640x360out.jpg",
+			"pv":	0
+		}, {
+			"filename":	"in.png",
+			"pv":	0
+		}],
+	"code":	0,
+	"total":	3,
+	"count":	3
+}
+[2023-01-24 10:48:23]--[src_cgi/sharefiles_cgi.c:633]--cmd = normal
+[2023-01-24 10:48:23]--[src_cgi/sharefiles_cgi.c:671]--buf = {"count":10,"start":0}
+[2023-01-24 10:48:23]--[src_cgi/sharefiles_cgi.c:680]--start = 0, count = 10
+[2023-01-24 10:48:23]--[src_cgi/sharefiles_cgi.c:85]--line = 3
+[2023-01-24 10:48:23]--[src_cgi/sharefiles_cgi.c:207]--select share_file_list.*, file_info.url, file_info.size, file_info.type from file_info, share_file_list where file_info.md5 = share_file_list.md5 limit 0, 10 在操作
+[2023-01-24 10:48:23]--[src_cgi/sharefiles_cgi.c:227]--mysql_num_rows(res_set) = 3
+[2023-01-24 10:48:23]--[src_cgi/sharefiles_cgi.c:346]--{
+	"files":	[{
+			"user":	"root",
+			"md5":	"28ab9728b1249eaa13db784ce801bc8c",
+			"file_name":	"in.png",
+			"share_status":	1,
+			"pv":	0,
+			"create_time":	"2023-01-22 16:14:37",
+			"url":	"http://192.168.10.145:80/group1/M00/00/00/wKgKkWPMnTuAc19IAAc-hDXc1DU207.png",
+			"size":	474756,
+			"type":	"png"
+		}, {
+			"user":	"root",
+			"md5":	"8d512134d8b0eb8578a9eb6c3012c8a8",
+			"file_name":	"frame002.jpg",
+			"share_status":	1,
+			"pv":	0,
+			"create_time":	"2023-01-22 16:14:39",
+			"url":	"http://192.168.10.145:80/group1/M00/00/00/wKgKkWPMnWeAQAo-AADQMSgFyHE196.jpg",
+			"size":	53297,
+			"type":	"jpg"
+		}, {
+			"user":	"root",
+			"md5":	"5fe3da6f05c3249209f5ba7413e7953d",
+			"file_name":	"640x360out.jpg",
+			"share_status":	1,
+			"pv":	0,
+			"create_time":	"2023-01-22 16:14:40",
+			"url":	"http://192.168.10.145:80/group1/M00/00/00/wKgKkWPM776AdI8JAAAt5scgVFw777.jpg",
+			"size":	11750,
+			"type":	"jpg"
+		}],
+	"code":	0,
+	"total":	3,
+	"count":	3
+}
+[2023-01-24 10:48:23]--[src_cgi/sharefiles_cgi.c:633]--cmd = count
+[2023-01-24 10:48:23]--[src_cgi/sharefiles_cgi.c:85]--line = 3
+[2023-01-24 10:48:23]--[src_cgi/sharefiles_cgi.c:98]--line = 3
+[2023-01-24 10:48:25]--[src_cgi/sharefiles_cgi.c:633]--cmd = pvdesc
+[2023-01-24 10:48:25]--[src_cgi/sharefiles_cgi.c:671]--buf = {"count":10,"start":0}
+[2023-01-24 10:48:25]--[src_cgi/sharefiles_cgi.c:680]--start = 0, count = 10
+[2023-01-24 10:48:25]--[src_cgi/sharefiles_cgi.c:85]--line = 3
+[2023-01-24 10:48:25]--[src_cgi/sharefiles_cgi.c:445]--sql_num = 3, redis_num = 3
+[2023-01-24 10:48:25]--[src_cgi/sharefiles_cgi.c:580]--{
+	"files":	[{
+			"filename":	"frame002.jpg",
+			"pv":	0
+		}, {
+			"filename":	"640x360out.jpg",
+			"pv":	0
+		}, {
+			"filename":	"in.png",
+			"pv":	0
+		}],
+	"code":	0,
+	"total":	3,
+	"count":	3
+}
+[2023-01-24 10:48:27]--[src_cgi/sharefiles_cgi.c:633]--cmd = normal
+[2023-01-24 10:48:27]--[src_cgi/sharefiles_cgi.c:671]--buf = {"count":10,"start":0}
+[2023-01-24 10:48:27]--[src_cgi/sharefiles_cgi.c:680]--start = 0, count = 10
+[2023-01-24 10:48:27]--[src_cgi/sharefiles_cgi.c:85]--line = 3
+[2023-01-24 10:48:27]--[src_cgi/sharefiles_cgi.c:207]--select share_file_list.*, file_info.url, file_info.size, file_info.type from file_info, share_file_list where file_info.md5 = share_file_list.md5 limit 0, 10 在操作
+[2023-01-24 10:48:27]--[src_cgi/sharefiles_cgi.c:227]--mysql_num_rows(res_set) = 3
+[2023-01-24 10:48:27]--[src_cgi/sharefiles_cgi.c:346]--{
+	"files":	[{
+			"user":	"root",
+			"md5":	"28ab9728b1249eaa13db784ce801bc8c",
+			"file_name":	"in.png",
+			"share_status":	1,
+			"pv":	0,
+			"create_time":	"2023-01-22 16:14:37",
+			"url":	"http://192.168.10.145:80/group1/M00/00/00/wKgKkWPMnTuAc19IAAc-hDXc1DU207.png",
+			"size":	474756,
+			"type":	"png"
+		}, {
+			"user":	"root",
+			"md5":	"8d512134d8b0eb8578a9eb6c3012c8a8",
+			"file_name":	"frame002.jpg",
+			"share_status":	1,
+			"pv":	0,
+			"create_time":	"2023-01-22 16:14:39",
+			"url":	"http://192.168.10.145:80/group1/M00/00/00/wKgKkWPMnWeAQAo-AADQMSgFyHE196.jpg",
+			"size":	53297,
+			"type":	"jpg"
+		}, {
+			"user":	"root",
+			"md5":	"5fe3da6f05c3249209f5ba7413e7953d",
+			"file_name":	"640x360out.jpg",
+			"share_status":	1,
+			"pv":	0,
+			"create_time":	"2023-01-22 16:14:40",
+			"url":	"http://192.168.10.145:80/group1/M00/00/00/wKgKkWPM776AdI8JAAAt5scgVFw777.jpg",
+			"size":	11750,
+			"type":	"jpg"
+		}],
+	"code":	0,
+	"total":	3,
+	"count":	3
+}
+[2023-01-24 10:48:27]--[src_cgi/sharefiles_cgi.c:633]--cmd = count
+[2023-01-24 10:48:27]--[src_cgi/sharefiles_cgi.c:85]--line = 3
+[2023-01-24 10:48:27]--[src_cgi/sharefiles_cgi.c:98]--line = 3
+[2023-01-24 10:48:27]--[src_cgi/sharefiles_cgi.c:633]--cmd = pvdesc
+[2023-01-24 10:48:27]--[src_cgi/sharefiles_cgi.c:671]--buf = {"count":10,"start":0}
+[2023-01-24 10:48:27]--[src_cgi/sharefiles_cgi.c:680]--start = 0, count = 10
+[2023-01-24 10:48:27]--[src_cgi/sharefiles_cgi.c:85]--line = 3
+[2023-01-24 10:48:27]--[src_cgi/sharefiles_cgi.c:445]--sql_num = 3, redis_num = 3
+[2023-01-24 10:48:27]--[src_cgi/sharefiles_cgi.c:580]--{
+	"files":	[{
+			"filename":	"frame002.jpg",
+			"pv":	0
+		}, {
+			"filename":	"640x360out.jpg",
+			"pv":	0
+		}, {
+			"filename":	"in.png",
+			"pv":	0
+		}],
+	"code":	0,
+	"total":	3,
+	"count":	3
+}

@@ -1,0 +1,151 @@
+[2023-01-24 09:47:20]--[src_cgi/sharepicture_cgi.c:41]--mysql:[user=root,pwd=123456,database=tuchuang][2023-01-24 09:47:20]--[src_cgi/sharepicture_cgi.c:46]--redis:[ip=127.0.0.1,port=6379]
+[2023-01-24 10:15:38]--[src_cgi/sharepicture_cgi.c:974]--cmd = normal
+[2023-01-24 10:15:38]--[src_cgi/sharepicture_cgi.c:1006]--buf = {"token":"831950fb7765930d851d4dc97e4e9af1","user":"root","start":0,"count":10}
+[2023-01-24 10:15:38]--[src_cgi/sharepicture_cgi.c:308]--select count from user_file_count where user='root_share_picture_list_count' 操作失败
+[2023-01-24 10:15:38]--[src_cgi/sharepicture_cgi.c:321]--line = 0
+[2023-01-24 10:15:38]--[src_cgi/sharepicture_cgi.c:342]--get_share_files_count err
+[2023-01-24 10:15:38]--[src_cgi/sharepicture_cgi.c:482]--{
+	"code":	1,
+	"total":	0,
+	"count":	7
+}
+[2023-01-24 10:15:44]--[src_cgi/sharepicture_cgi.c:974]--cmd = normal
+[2023-01-24 10:15:44]--[src_cgi/sharepicture_cgi.c:1006]--buf = {"token":"831950fb7765930d851d4dc97e4e9af1","user":"root","start":0,"count":10}
+[2023-01-24 10:15:44]--[src_cgi/sharepicture_cgi.c:308]--select count from user_file_count where user='root_share_picture_list_count' 操作失败
+[2023-01-24 10:15:44]--[src_cgi/sharepicture_cgi.c:321]--line = 0
+[2023-01-24 10:15:44]--[src_cgi/sharepicture_cgi.c:342]--get_share_files_count err
+[2023-01-24 10:15:44]--[src_cgi/sharepicture_cgi.c:482]--{
+	"code":	1,
+	"total":	0,
+	"count":	7
+}
+[2023-01-24 10:16:27]--[src_cgi/sharepicture_cgi.c:974]--cmd = normal
+[2023-01-24 10:16:27]--[src_cgi/sharepicture_cgi.c:1006]--buf = {"token":"f795827936580d5c5f925df66d3efe41","user":"admin","start":0,"count":10}
+[2023-01-24 10:16:27]--[src_cgi/sharepicture_cgi.c:308]--select count from user_file_count where user='admin_share_picture_list_count' 操作失败
+[2023-01-24 10:16:27]--[src_cgi/sharepicture_cgi.c:321]--line = 0
+[2023-01-24 10:16:27]--[src_cgi/sharepicture_cgi.c:342]--get_share_files_count err
+[2023-01-24 10:16:27]--[src_cgi/sharepicture_cgi.c:482]--{
+	"code":	1,
+	"total":	0,
+	"count":	0
+}
+[2023-01-24 10:18:22]--[src_cgi/sharepicture_cgi.c:974]--cmd = normal
+[2023-01-24 10:18:22]--[src_cgi/sharepicture_cgi.c:1006]--buf = {"token":"f795827936580d5c5f925df66d3efe41","user":"admin","start":0,"count":10}
+[2023-01-24 10:18:22]--[src_cgi/sharepicture_cgi.c:308]--select count from user_file_count where user='admin_share_picture_list_count' 操作失败
+[2023-01-24 10:18:22]--[src_cgi/sharepicture_cgi.c:321]--line = 0
+[2023-01-24 10:18:22]--[src_cgi/sharepicture_cgi.c:342]--get_share_files_count err
+[2023-01-24 10:18:22]--[src_cgi/sharepicture_cgi.c:482]--{
+	"code":	1,
+	"total":	0,
+	"count":	7
+}
+[2023-01-24 10:18:26]--[src_cgi/sharepicture_cgi.c:974]--cmd = normal
+[2023-01-24 10:18:26]--[src_cgi/sharepicture_cgi.c:1006]--buf = {"token":"f795827936580d5c5f925df66d3efe41","user":"admin","start":0,"count":10}
+[2023-01-24 10:18:26]--[src_cgi/sharepicture_cgi.c:308]--select count from user_file_count where user='admin_share_picture_list_count' 操作失败
+[2023-01-24 10:18:26]--[src_cgi/sharepicture_cgi.c:321]--line = 0
+[2023-01-24 10:18:26]--[src_cgi/sharepicture_cgi.c:342]--get_share_files_count err
+[2023-01-24 10:18:26]--[src_cgi/sharepicture_cgi.c:482]--{
+	"code":	1,
+	"total":	0,
+	"count":	7
+}
+[2023-01-24 10:18:27]--[src_cgi/sharepicture_cgi.c:974]--cmd = normal
+[2023-01-24 10:18:27]--[src_cgi/sharepicture_cgi.c:1006]--buf = {"token":"f795827936580d5c5f925df66d3efe41","user":"admin","start":0,"count":10}
+[2023-01-24 10:18:27]--[src_cgi/sharepicture_cgi.c:308]--select count from user_file_count where user='admin_share_picture_list_count' 操作失败
+[2023-01-24 10:18:27]--[src_cgi/sharepicture_cgi.c:321]--line = 0
+[2023-01-24 10:18:27]--[src_cgi/sharepicture_cgi.c:342]--get_share_files_count err
+[2023-01-24 10:18:27]--[src_cgi/sharepicture_cgi.c:482]--{
+	"code":	1,
+	"total":	0,
+	"count":	7
+}
+[2023-01-24 10:18:28]--[src_cgi/sharepicture_cgi.c:974]--cmd = normal
+[2023-01-24 10:18:28]--[src_cgi/sharepicture_cgi.c:1006]--buf = {"token":"f795827936580d5c5f925df66d3efe41","user":"admin","start":0,"count":10}
+[2023-01-24 10:18:28]--[src_cgi/sharepicture_cgi.c:308]--select count from user_file_count where user='admin_share_picture_list_count' 操作失败
+[2023-01-24 10:18:28]--[src_cgi/sharepicture_cgi.c:321]--line = 0
+[2023-01-24 10:18:28]--[src_cgi/sharepicture_cgi.c:342]--get_share_files_count err
+[2023-01-24 10:18:28]--[src_cgi/sharepicture_cgi.c:482]--{
+	"code":	1,
+	"total":	0,
+	"count":	7
+}
+[2023-01-24 10:18:31]--[src_cgi/sharepicture_cgi.c:974]--cmd = normal
+[2023-01-24 10:18:31]--[src_cgi/sharepicture_cgi.c:1006]--buf = {"token":"f795827936580d5c5f925df66d3efe41","user":"admin","start":0,"count":10}
+[2023-01-24 10:18:31]--[src_cgi/sharepicture_cgi.c:308]--select count from user_file_count where user='admin_share_picture_list_count' 操作失败
+[2023-01-24 10:18:31]--[src_cgi/sharepicture_cgi.c:321]--line = 0
+[2023-01-24 10:18:31]--[src_cgi/sharepicture_cgi.c:342]--get_share_files_count err
+[2023-01-24 10:18:31]--[src_cgi/sharepicture_cgi.c:482]--{
+	"code":	1,
+	"total":	0,
+	"count":	7
+}
+[2023-01-24 10:18:46]--[src_cgi/sharepicture_cgi.c:974]--cmd = normal
+[2023-01-24 10:18:46]--[src_cgi/sharepicture_cgi.c:1006]--buf = {"token":"460cb5a7e1d76144012e56edfd7bd049","user":"root","start":0,"count":10}
+[2023-01-24 10:18:46]--[src_cgi/sharepicture_cgi.c:308]--select count from user_file_count where user='root_share_picture_list_count' 操作失败
+[2023-01-24 10:18:46]--[src_cgi/sharepicture_cgi.c:321]--line = 0
+[2023-01-24 10:18:46]--[src_cgi/sharepicture_cgi.c:342]--get_share_files_count err
+[2023-01-24 10:18:46]--[src_cgi/sharepicture_cgi.c:482]--{
+	"code":	1,
+	"total":	0,
+	"count":	7
+}
+[2023-01-24 10:18:50]--[src_cgi/sharepicture_cgi.c:974]--cmd = normal
+[2023-01-24 10:18:50]--[src_cgi/sharepicture_cgi.c:1006]--buf = {"token":"460cb5a7e1d76144012e56edfd7bd049","user":"root","start":0,"count":10}
+[2023-01-24 10:18:50]--[src_cgi/sharepicture_cgi.c:308]--select count from user_file_count where user='root_share_picture_list_count' 操作失败
+[2023-01-24 10:18:50]--[src_cgi/sharepicture_cgi.c:321]--line = 0
+[2023-01-24 10:18:50]--[src_cgi/sharepicture_cgi.c:342]--get_share_files_count err
+[2023-01-24 10:18:50]--[src_cgi/sharepicture_cgi.c:482]--{
+	"code":	1,
+	"total":	0,
+	"count":	7
+}
+[2023-01-24 10:18:53]--[src_cgi/sharepicture_cgi.c:974]--cmd = normal
+[2023-01-24 10:18:53]--[src_cgi/sharepicture_cgi.c:1006]--buf = {"token":"460cb5a7e1d76144012e56edfd7bd049","user":"root","start":0,"count":10}
+[2023-01-24 10:18:53]--[src_cgi/sharepicture_cgi.c:308]--select count from user_file_count where user='root_share_picture_list_count' 操作失败
+[2023-01-24 10:18:53]--[src_cgi/sharepicture_cgi.c:321]--line = 0
+[2023-01-24 10:18:53]--[src_cgi/sharepicture_cgi.c:342]--get_share_files_count err
+[2023-01-24 10:18:53]--[src_cgi/sharepicture_cgi.c:482]--{
+	"code":	1,
+	"total":	0,
+	"count":	7
+}
+[2023-01-24 10:19:01]--[src_cgi/sharepicture_cgi.c:974]--cmd = normal
+[2023-01-24 10:19:01]--[src_cgi/sharepicture_cgi.c:1006]--buf = {"token":"460cb5a7e1d76144012e56edfd7bd049","user":"root","start":0,"count":10}
+[2023-01-24 10:19:01]--[src_cgi/sharepicture_cgi.c:308]--select count from user_file_count where user='root_share_picture_list_count' 操作失败
+[2023-01-24 10:19:01]--[src_cgi/sharepicture_cgi.c:321]--line = 0
+[2023-01-24 10:19:01]--[src_cgi/sharepicture_cgi.c:342]--get_share_files_count err
+[2023-01-24 10:19:01]--[src_cgi/sharepicture_cgi.c:482]--{
+	"code":	1,
+	"total":	0,
+	"count":	7
+}
+[2023-01-24 10:48:21]--[src_cgi/sharepicture_cgi.c:974]--cmd = normal
+[2023-01-24 10:48:21]--[src_cgi/sharepicture_cgi.c:1006]--buf = {"token":"460cb5a7e1d76144012e56edfd7bd049","user":"root","start":0,"count":10}
+[2023-01-24 10:48:21]--[src_cgi/sharepicture_cgi.c:308]--select count from user_file_count where user='root_share_picture_list_count' 操作失败
+[2023-01-24 10:48:21]--[src_cgi/sharepicture_cgi.c:321]--line = 0
+[2023-01-24 10:48:21]--[src_cgi/sharepicture_cgi.c:342]--get_share_files_count err
+[2023-01-24 10:48:21]--[src_cgi/sharepicture_cgi.c:482]--{
+	"code":	1,
+	"total":	0,
+	"count":	7
+}
+[2023-01-24 10:48:24]--[src_cgi/sharepicture_cgi.c:974]--cmd = normal
+[2023-01-24 10:48:24]--[src_cgi/sharepicture_cgi.c:1006]--buf = {"token":"460cb5a7e1d76144012e56edfd7bd049","user":"root","start":0,"count":10}
+[2023-01-24 10:48:24]--[src_cgi/sharepicture_cgi.c:308]--select count from user_file_count where user='root_share_picture_list_count' 操作失败
+[2023-01-24 10:48:24]--[src_cgi/sharepicture_cgi.c:321]--line = 0
+[2023-01-24 10:48:24]--[src_cgi/sharepicture_cgi.c:342]--get_share_files_count err
+[2023-01-24 10:48:24]--[src_cgi/sharepicture_cgi.c:482]--{
+	"code":	1,
+	"total":	0,
+	"count":	7
+}
+[2023-01-24 10:48:26]--[src_cgi/sharepicture_cgi.c:974]--cmd = normal
+[2023-01-24 10:48:26]--[src_cgi/sharepicture_cgi.c:1006]--buf = {"token":"460cb5a7e1d76144012e56edfd7bd049","user":"root","start":0,"count":10}
+[2023-01-24 10:48:26]--[src_cgi/sharepicture_cgi.c:308]--select count from user_file_count where user='root_share_picture_list_count' 操作失败
+[2023-01-24 10:48:26]--[src_cgi/sharepicture_cgi.c:321]--line = 0
+[2023-01-24 10:48:26]--[src_cgi/sharepicture_cgi.c:342]--get_share_files_count err
+[2023-01-24 10:48:26]--[src_cgi/sharepicture_cgi.c:482]--{
+	"code":	1,
+	"total":	0,
+	"count":	7
+}
